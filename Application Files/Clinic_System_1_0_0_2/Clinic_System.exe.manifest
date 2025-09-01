@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Clinic_System.exe" version="1.0.0.2" publicKeyToken="2450dda7f957df7b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Clinic_System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Clinic_System.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Clinic_System.exe" size="8160">
+      <assemblyIdentity name="Clinic_System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+grq8doQdxxFW4z7ah1kDoRplTN3lLhVvI2kjiUDbzs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Clinic_System.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-6ND42PI\wenwe" issuerKeyHash="2b8e3435c720591feebbabea5e4d3a08eac8e563" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WTfl9DXnJ0p7rfq7R6gX+xqt3NUSsYaVVSZseNhkwCE=</DigestValue></Reference></SignedInfo><SignatureValue>GquR4kskEx7d5Ewcxt7k271BBQmvwm4VBp9FHChcmySEE8R2EzLzr97Yd5T8Mi2/yHjJOeQZ4cl/kJbwiaz3morYNqS5fkgTsuJSspbnsBUrUDe+RoB/sKXlSHH8XU4GvLDFqmGpBvEd44FWfOScBBnrwcJiSbl3AM0P4dsWDQA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5NF4bZr+GYfCDVfpFtkIJ4N5omrqkJEnji+j2ltao1AEnHEsEXQIZ55xDnEbZOAV6Nmm071XuC/w+zGBuNuwbSRXDFuKPNcfesLlzCCJXS4aiD6mEyJsuXxWJPyigiqKEKNm8yJiOj9xUNGn+On+0cJB9zB/LK3Axsatixt+gY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="21c064d8786c26559586b112d5dcad1afb17a847bbfaad7b4a27e735f4e53759" Description="" Url=""><as:assemblyIdentity name="Clinic_System.exe" version="1.0.0.2" publicKeyToken="2450dda7f957df7b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-6ND42PI\wenwe</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RAjIO2QKQyqL8c6HhANE85lb42hyYbBKQ08V3bboQ44=</DigestValue></Reference></SignedInfo><SignatureValue>ljumZfsREUOVYVFewuC8J/pucHmpn14N3hsH/AIVHZhAWd0uM0H661J/nhM8Wt9uHdHSPVFCkNnJcceC4tQvZTvjg2vO3Lp9gooGUAZDp0SDzsZ78J9KmmGAKyhlThAzN8h75EcpjGDDN0phFeTE0sFp1lp+Iw+ZEhjCg+qLQ+U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5NF4bZr+GYfCDVfpFtkIJ4N5omrqkJEnji+j2ltao1AEnHEsEXQIZ55xDnEbZOAV6Nmm071XuC/w+zGBuNuwbSRXDFuKPNcfesLlzCCJXS4aiD6mEyJsuXxWJPyigiqKEKNm8yJiOj9xUNGn+On+0cJB9zB/LK3Axsatixt+gY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQIEnFqEiCardEbXHdkQ0YwDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYATgBEADQAMgBQAEkAXAB3AGUAbgB3AGUwHhcNMjUwOTAxMTczMjI2WhcNMjYwOTAxMjMzMjI2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYATgBEADQAMgBQAEkAXAB3AGUAbgB3AGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOTReG2a/hmHwg1X6RbZCCeDeaJq6pCRJ44vo9pbWqNQBJxxLBF0CGeecQ5xG2TgFejZptO9V7gv8PsxgbjbsG0kVwxbijzXH3rC5cwgiV0uGog+phMibLl8ViT8ooIqihCjZvMiYjo/cVDRp/jp/tHCQfcwfyytwMbGrYsbfoGNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA3x/yxFGJMiQ1Vrpd2CrHRNqDNYFcB3QA7xOVAFv12GUWyE72MjRKdZ7pIrtqXrTXWiuENFK6PzsFc1+Bwv7vG7CWba4cljhQiAjZJE7OAo0hozmHHcV9BdvBqInXv61CPHoM29VxHbbE/00uqFhLnpSV6fVFfAutgME9aMIuVwI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
